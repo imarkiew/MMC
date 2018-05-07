@@ -1,0 +1,5 @@
+project(zad_2 C)
+set(CMAKE_C_STANDARD 11)
+add_executable(zad_2 zad_2.c)
+target_link_libraries(zad_2 m gsl gslcblas)
+SET(CMAKE_C_FLAGS_DEBUG "-O3")
