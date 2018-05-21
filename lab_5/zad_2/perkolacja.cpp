@@ -1,3 +1,6 @@
+/**
+@ IMiO EiTI PW
+*/
 #include <iostream>
 #include "perkolacja.h"
 
@@ -260,6 +263,9 @@ void  perkolacja::zamiana_etykiet(int zly_numer, int dobry_numer) {
 				siatka_perkolacji_numery_agregatow[i][j] = dobry_numer;
 }
 
+/**
+@ Igor Markiewicz
+*/
 int perkolacja::masa_agregatu(int numer_agregatu) {
 	int sum = 0;
 	for(int i = 0; i < L; i++)

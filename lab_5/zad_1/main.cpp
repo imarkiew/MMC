@@ -1,3 +1,6 @@
+/**
+@ Igor Markiewicz
+*/
 #include <iostream>
 #include "perkolacja.h"
 #include <fstream>

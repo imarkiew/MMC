@@ -1,3 +1,6 @@
+/**
+@ IMiO EiTI PW
+*/
 #include <gsl/gsl_rng.h>
 
 class perkolacja {

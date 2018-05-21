@@ -1,3 +1,6 @@
+/**
+@ IMiO EiTI PW
+*/
 #include <iostream>
 #include "perkolacja.h"
 
