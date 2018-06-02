@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(zad_1_2)
+set(CMAKE_CXX_STANDARD 17)
+set(SOURCE_FILES main.cpp model_isinga.cpp model_isinga.h "canonical_ensemble .cpp" "canonical_ensemble .h")
+add_executable(zad_1_2 ${SOURCE_FILES})
+target_link_libraries(zad_1_2 m gsl gslcblas)
