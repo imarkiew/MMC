@@ -47,7 +47,7 @@ int main() {
         step = min + width/2 + i*width;
         file_1 << step << " " << 1.0*histogram_x_1[i]/M << endl;
         file_2 << step << " " << 1.0*histogram_x_2[i]/M << endl;
-        file_3 << step << " " << 1.0*histogram_y[i]/(2*M) << endl;
+        file_3 << step << " " << 1.0*histogram_y[i]/(M) << endl;
     }
 
     auto y_estimator = accumulate(y.begin(), y.end(), 0.0)/M;
